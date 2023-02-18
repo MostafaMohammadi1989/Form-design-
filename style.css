@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  margin: 25px 0;
+}
+label {
+  padding: 8px 0;
+  font-size: 20px;
+  font-weight: 550;
+}
+input {
+  height: 30px;
+  border-radius: 5px;
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+caption {
+  font-size: 25px;
+  font-weight: 600;
+  padding: 15px 0;
+}
+
+table thead tr th {
+  padding: 15px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+table tbody tr td {
+  padding: 0 30px;
+  font-size: 16px;
+  text-align: center;
+  width: 110px;
+}
