@@ -11,9 +11,11 @@
   <body>
     <h1>Add Data</h1>
     <div class="main">
-      <form action="">
+      <form id="form">
         <label for="user">Usernam:</label>
         <input
+          id="username"
+          class="username"
           type="text"
           name="usernam"
           id="user"
@@ -22,6 +24,8 @@
         />
         <label for="pass">password:</label>
         <input
+          id="password"
+          class="password"
           type="password"
           name="password"
           id="pass"
@@ -30,15 +34,18 @@
         />
         <label for="mail">Email:</label>
         <input
+          id="email"
+          class="email"
           type="email"
           name="email"
           id="mail"
           placeholder="Your Email"
           required
         />
+        <input type="submit" value="Enter" id="submit" />
       </form>
 
-      <table>
+      <table id="table">
         <caption>
           Table Data
         </caption>
@@ -49,13 +56,7 @@
             <th>Meisam</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td>Majid</td>
-            <td>Majid</td>
-            <td>Majid</td>
-          </tr>
-        </tbody>
+        <tbody class="tbody"></tbody>
       </table>
     </div>
     <!-- Javascript -->

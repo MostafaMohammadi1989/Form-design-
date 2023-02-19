@@ -25,6 +25,8 @@ label {
 input {
   height: 30px;
   border-radius: 5px;
+  place-content: ;
+  padding: 17px;
 }
 
 table {
