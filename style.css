@@ -22,10 +22,11 @@ label {
   font-size: 20px;
   font-weight: 550;
 }
-input {
+input[type="text"],
+input[type="password"],
+input[type="email"] {
   height: 30px;
   border-radius: 5px;
-  place-content: ;
   padding: 17px;
 }
 
@@ -42,16 +43,29 @@ caption {
   padding: 15px 0;
 }
 
-table thead tr th {
+/* table thead tr th {
   padding: 15px;
   font-size: 20px;
   letter-spacing: 2px;
   text-align: center;
-}
+} */
 
-table tbody tr td {
+/* table tbody tr td {
   padding: 0 30px;
   font-size: 16px;
   text-align: center;
   width: 110px;
+} */
+
+.btn-submit {
+  /* padding-top: 20px; */
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+  padding: 12px;
+  background-color: rgb(228, 1, 1);
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  font-size: 18px;
 }
